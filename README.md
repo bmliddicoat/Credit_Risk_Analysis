@@ -6,20 +6,21 @@ Using the credit card dataset from LendingCLub, data preparation, statistical an
 ## Oversampling
 
 ### Naive Random Oversampling
-! [alt txt]()
+
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/ca3a632454d5a680516fa87eb634f8ca9ad36c39/images/n_sampling_balanced_acc_score.jpg)
 * Balanced Accuracy Score: 64.5%
 
-! [alt txt]()
+![alt text](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/ca3a632454d5a680516fa87eb634f8ca9ad36c39/images/class_report_naive.jpg)
 * Precision and Recall scores: 
     * High Risk: Precision of .01, Recall of .70
     * Low Risk: Precision of 1.0, Recall of .59
     * Avg/Total: Precision of .99, Recall of .59
 
 ### SMOTE Over sampling
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/ca3a632454d5a680516fa87eb634f8ca9ad36c39/images/smote_bal_acc_score.jpg)
 * Balanced Accuracy Score: 68.4%
 
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/smote_class_report.jpg)
 * Precision and Recall scores: 
     * High Risk: Precision of .01, Recall of .81
     * Low Risk: Precision of 1.0, Recall of .56
@@ -28,10 +29,10 @@ Using the credit card dataset from LendingCLub, data preparation, statistical an
 ## Under Sampling
 
 ### Cluster Centroids
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/cluster_under_bal_acc_score.jpg)
 * Balanced Accuracy Score: 54.4%
 
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/cluster_class_report.jpg)
 * Precision and Recall scores: 
     * High Risk: Precision of .01, Recall of .69
     * Low Risk: Precision of 1.0, Recall of .39
@@ -40,10 +41,10 @@ Using the credit card dataset from LendingCLub, data preparation, statistical an
 ## Combination (Over and Under) Sampling
 
 ### SMOTEENN
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/smoteenn_bal_acc_score%20.jpg)
 * Balanced Accuracy Score: 68.4%
 
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/smoteenn_class_report.jpg)
 * Precision and Recall scores: 
     * High Risk: Precision of .01, Recall of .81
     * Low Risk: Precision of 1.0, Recall of .56
@@ -53,20 +54,20 @@ Using the credit card dataset from LendingCLub, data preparation, statistical an
 ## Ensemble Learners
 
 ### Balanced Random Forest Classifier
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/bal_forest_acc_score.jpg)
 * Balanced Accuracy Score: near 77.0%
 
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/bal_forest_class_report.jpg)
 * Precision and Recall scores: 
     * High Risk: Precision of .03, Recall of .66
     * Low Risk: Precision of 1.0, Recall of .88
     * Avg/Total: Precision of .99, Recall of .87
 
 ### Easy Ensemble AdaBoost Classifier
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/easy_ensem_bal_acc_score.jpg)
 * Balanced Accuracy Score: near 93.2%
 
-! [alt txt]()
+![alt txt](https://github.com/bmliddicoat/Credit_Risk_Analysis/blob/85a9ece0015a93b496086d22f685617b5a24929d/images/easy_em_class_report.jpg)
 * Precision and Recall scores: 
     * High Risk: Precision of .09, Recall of .92
     * Low Risk: Precision of 1.0, Recall of .94
